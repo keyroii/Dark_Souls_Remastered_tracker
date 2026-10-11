@@ -1094,11 +1094,11 @@
             {"name": "DG: Large Soul of a Brave Warrior - Darkroot Garden Cats","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
             {"name": "DG: Soul of a Brave Warrior - Down Ladder before Stone Bridge","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
             {"name": "DG: Enchanted Ember","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
-            {"name": "DG: Hornet Ring","access_rules": ["@canReachDarkrootGardenBehindSifDoor"]},
-            {"name": "DG: Covenant of Artorias - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindSifDoor"]},
-            {"name": "DG: Soul of Sif","access_rules": ["@canReachDarkrootGardenBehindSifDoor"],"visibility_rules": ["setting_boss_soul_shuffle"]},
-            {"name": "DG: Humanity - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindSifDoor"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
-            {"name": "DG: Homeward Bone - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindSifDoor"],"visibility_rules": ["setting_boss_bone_shuffle"]}
+            {"name": "DG: Hornet Ring","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
+            {"name": "DG: Covenant of Artorias - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
+            {"name": "DG: Soul of Sif","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "DG: Humanity - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "DG: Homeward Bone - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"],"visibility_rules": ["setting_boss_bone_shuffle"]}
         ]
     },{
         "name": "DG: Eastern Set","map_locations": [{"map": "Darkroot Garden","x": 362,"y": 470}],
@@ -3216,11 +3216,6 @@
     "name": "canReachDarkrootGardenBehindArtoriasDoor",
     "access_rules": [
         "@canReachDarkrootGardenBeforeFog, [crest_of_artorias]"
-    ]},
-    {
-    "name": "canReachDarkrootGardenBehindSifDoor",
-    "access_rules": [
-        "@canReachDarkrootGardenBeforeFog, crest_of_artorias"
     ]},
     {
     "name": "canReachDarkrootGardenMoonlightButterfly",
